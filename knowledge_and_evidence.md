@@ -366,23 +366,29 @@ Include a screenshot of the sad smiley or the modified `main.py`:
 
   1. **Class Type Analysis:** What kind of class is `Blinkable`? Inspect its superclass for clues about its classification.
 
-     > Your answer here
+     > Blinkable is an abstract base class. Its superclass, ABC, indicates it is a special type of class intended to serve as a blueprint for other classes. Abstract base classes can define methods that subclasses must 
+	 implement.
+	 https://docs.python.org/3/library/abc.html
 
   2. **Class Implementation:** `Blinkable` is a class intended to be implemented by other classes. What generic term describes this kind of class, which is designed for implementation by others? **Clue**: Notice the lack of any concrete implementation and the naming convention.
 
-  > Your answer here
+  > Blinkable is an interface. An interface is a generic term for a class designed to be implemented by other classes. Interfaces typically lack concrete implementations, defining only method signatures that subclasses must 
+  provide.
 
   3. **OO Principle Identification:** Regarding your answer to question (2), which Object-Oriented (OO) principle does this represent? Choose from the following and justify your answer in 1-2 sentences: Abstraction, Polymorphism, Inheritance, Encapsulation.
 
-  > Your answer here
+  > The principle here is Abstraction. By defining only the method signature for blink without any concrete implementation, Blinkable abstracts the blinking functionality, leaving the details to be defined by any class that 
+  implements it.
 
   4. **Implementation Flexibility:** Explain why you could grant the Sad Smiley a blinking feature similar to the Happy Smiley's implementation, even without directly using `Blinkable`.
 
-  > Your answer here
+  > The Sad Smiley can still have a blinking feature similar to the Happy Smiley without directly using Blinkable. This can be achieved by defining a blink method within the Sad Smiley class itself, which provides the 
+  necessary blinking functionality independently of Blinkable. This implementation can be seen in the Happy class.  
 
   5. **Concept and Language Specificity:** In relation to your response to question (4), what is this capability known as, and why is it feasible in Python and many other dynamically typed languages but not in most statically typed programming languages like C#? **Clue** This concept is hinted at in the title of this section.
 
-  > Your answer here
+  > This capability is known as duck typing. In Python and other dynamically typed languages, if an object implements a method (like blink) that the code expects, it can be used without needing a specific type or interface. 
+  In statically typed languages like C#, the object’s type must match an interface or class, making duck typing infeasible without explicitly inheriting or implementing.
 
   ***
 
