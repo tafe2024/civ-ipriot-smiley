@@ -93,7 +93,7 @@ Address the following tasks and questions based on the code provided in this rep
 3. Run the project locally by executing the `main.py` file
 4. Evidence this by providing screenshots of the project directory structure and the output of the `main.py` file
 
-![Local Execution (INSERT YOUR SCREENSHOT)](screenshots/image-1-local-execute.PNG)
+![Local Execution (INSERT YOUR SCREENSHOT)](screenshots/image-2-local-execute.PNG)
 
 If you are running on a Raspberry Pi, you can use the following command to run the project and then screenshot the result:
 
@@ -354,11 +354,11 @@ implementations are invoked​(happy)​(smiley).
 
 Include a screenshot of the sad smiley or the modified `main.py`:
 
-![Sad Smiley Blinking](screenshots/sad_blinking.png)
+![Sad Smiley Blinking](screenshots/image-2-local-execute.PNG)
 
 - Observe and document the Sad smiley as it blinks its eyes. Describe any adjustments or issues encountered during implementation.
 
-  > Your answer here
+  > I had to import time inside the sad class as the delay does not work without it.
 
   ### If It Walks Like a Duck…
 
