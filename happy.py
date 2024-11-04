@@ -13,6 +13,10 @@ class Happy(Smiley, Blinkable):
         self.draw_mouth()
         self.draw_eyes()
 
+    def complexion(self):
+        # Overrides default face colour with blue.
+        return self.BLUE
+    
     def draw_mouth(self):
         """
        Renders a mouth by blanking the pixels that form that object.
@@ -28,7 +32,7 @@ class Happy(Smiley, Blinkable):
         """
         eyes = [10, 13, 18, 21]
         for pixel in eyes:
-            self.pixels[pixel] = self.BLANK if wide_open else self.YELLOW
+            self.pixels[pixel] = self.BLANK if wide_open else self.my_complexion
 
     def blink(self, delay=0.25):
         """
