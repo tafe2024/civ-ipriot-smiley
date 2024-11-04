@@ -12,17 +12,17 @@ class Smiley:
         # We have encapsulated the SenseHat object
         self.sense_hat = SenseHat()
 
-        Y = self.YELLOW
+        N = self.YELLOW
         O = self.BLANK
         self.pixels = [
-            O, Y, Y, Y, Y, Y, Y, O,
-            Y, Y, Y, Y, Y, Y, Y, Y,
-            Y, Y, Y, Y, Y, Y, Y, Y,
-            Y, Y, Y, Y, Y, Y, Y, Y,
-            Y, Y, Y, Y, Y, Y, Y, Y,
-            Y, Y, Y, Y, Y, Y, Y, Y,
-            Y, Y, Y, Y, Y, Y, Y, Y,
-            O, Y, Y, Y, Y, Y, Y, O,
+            O, N, N, N, N, N, N, O,
+            N, N, N, N, N, N, N, N,
+            N, N, N, N, N, N, N, N,
+            N, N, N, N, N, N, N, N,
+            N, N, N, N, N, N, N, N,
+            N, N, N, N, N, N, N, N,
+            N, N, N, N, N, N, N, N,
+            O, N, N, N, N, N, N, O,
         ]
 
     def dim_display(self, dimmed=True):
