@@ -93,7 +93,7 @@ Address the following tasks and questions based on the code provided in this rep
 3. Run the project locally by executing the `main.py` file
 4. Evidence this by providing screenshots of the project directory structure and the output of the `main.py` file
 
-![Local Execution (INSERT YOUR SCREENSHOT)](screenshots/CREATE_A_SCREENSHOT_OF_YOUR_local_setup.png)
+![Local Execution (INSERT YOUR SCREENSHOT)](screenshots/image-1-local-execute.png)
 
 If you are running on a Raspberry Pi, you can use the following command to run the project and then screenshot the result:
 
@@ -132,12 +132,12 @@ python3 main.py
 
 4. Though everything in Python is an object, it is sometimes said to have four "primitive" types. Examining the three files `smiley.py`, `sad.py`, and `happy.py`, identify which of the following types are used in any of these files, and give an example of each (use an example from the code, if applicable, otherwise provide an example of your own):
 
-   | Type                    | Used? | Example |
-   | ----------------------- | ----- | --------|
-   | int                     | yes     | mouth = [49, 54, 42, 43, 44, 45] (list of integers in sad.py)                        |
-   | float                   | yes     | delay=0.25 (used in happy.py to control blink delay)​          						  |
-   | str                     | No	   | (Not explicitly used, but could appear as text strings for drawing names or actions) |
-   | bool                    | yes     | wide_open=True (boolean flag for eye state in sad.py and happy.py)​         		  |
+   | Type                    | Used? | Example 																				|
+   | ----------------------- | ----- | --------																				|
+   | int                     | yes   | mouth = [49, 54, 42, 43, 44, 45] (list of integers in sad.py)                        |
+   | float                   | yes   | delay=0.25 (used in happy.py to control blink delay)​          						|
+   | str                     | No	 | (Not explicitly used, but could appear as text strings for drawing names or actions) |
+   | bool                    | yes   | wide_open=True (boolean flag for eye state in sad.py and happy.py)​         		  	|
 
 5. Examining `smiley.py`, provide an example of a class variable and an instance variable (attribute). Explain **why** one is defined as a class variable and the other as an instance variable.
 
